@@ -8,7 +8,7 @@ def calculate_score():
     if total_score > 7:
         recommendation_label.config(text="Recommendation: Strongly consider for publication.")
     elif 5 <= total_score <= 7:
-        recommendation_label.config(text="Recommendation: Maybe consider for publication.")
+        recommendation_label.config(text="Recommendation: Can consider for publication.")
     else:
         recommendation_label.config(text="Recommendation: Reject.")
 
